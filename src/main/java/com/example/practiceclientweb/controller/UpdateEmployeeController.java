@@ -39,7 +39,7 @@ public class UpdateEmployeeController extends HttpServlet {
         obj.setName(req.getParameter("name"));
         obj.setSalary(new BigDecimal(req.getParameter("salary")));
 
-        employeeService.update(id, obj).execute();
+        employeeService.updateEmployees(id, obj).execute();
         resp.sendRedirect("/employees");
     }
 }

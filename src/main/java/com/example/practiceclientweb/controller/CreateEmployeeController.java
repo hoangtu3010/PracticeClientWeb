@@ -33,7 +33,7 @@ public class CreateEmployeeController extends HttpServlet {
         obj.setName(req.getParameter("name"));
         obj.setSalary(new BigDecimal (req.getParameter("salary")));
 
-        employeeService.save(obj).execute();
+        employeeService.addEmployees(obj).execute();
         resp.sendRedirect("/employees");
     }
 }

@@ -14,8 +14,8 @@ public interface EmployeeService {
     public Call<Employee> getEmployeeDetails(@Path("id") Integer id);
 
     @POST("api/v1/employees")
-    public Call<Employee> save(@Body Employee employee);
+    public Call<Employee> addEmployees(@Body Employee employee);
 
     @PUT("api/v1/employees/{id}")
-    public Call<Boolean> update(@Path("id") Integer id, @Body Employee employee);
+    public Call<Boolean> updateEmployees(@Path("id") Integer id, @Body Employee employee);
 }
