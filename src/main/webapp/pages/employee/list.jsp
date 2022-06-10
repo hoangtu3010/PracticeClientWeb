@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/assets/css/table-custom.css">
     <link rel="stylesheet" href="/assets/css/header-style.css">
-    <title>List Products</title>
+    <title>List Employees</title>
 </head>
 <body>
 <div class="container">
@@ -32,7 +32,7 @@
         <li class="table-header">
             <div class="col col-1">Id</div>
             <div class="col col-1">Name</div>
-            <div class="col col-1">Price</div>
+            <div class="col col-1">Salary</div>
             <div class="col col-1">Action</div>
         </li>
         <%
